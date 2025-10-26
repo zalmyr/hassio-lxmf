@@ -1,0 +1,26 @@
+name: "LXMF HA Conversations"
+version: "0.1.0"
+slug: "lxmf_ha_conversations"
+description: "Bridge Home Assistant Conversations with LXMF"
+arch:
+  - amd64
+  - armv7
+  - arm64
+url: "https://github.com/metrafonic/lxmf-ha-conversations"
+startup: services
+boot: auto
+init: false
+host_network: true
+map:
+  - config:rw
+  - ssl:ro
+schema:
+  ha_url: str
+  ha_token: password
+  admin_hashes: str
+  bot_name: str
+options:
+  ha_url: "http://homeassistant:8123"
+  ha_token: ""
+  admin_hashes: ""
+  bot_name: "LXMF-Bot"

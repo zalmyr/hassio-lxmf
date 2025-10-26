@@ -1,0 +1,16 @@
+{
+  "name": "LXMF HA Add-ons",
+  "url": "https://github.com/zalmyr/lxmf-ha-repo",
+  "maintainer": "Zalmy Rosenberg <zalmy@mmm.com>",
+  "homeassistant": "2024.7.0",
+  "arch": ["amd64", "arm64", "armv7"],
+  "addons": {
+    "lxmf_ha_conversations": {
+      "version": "0.1.0",
+      "slug": "lxmf_ha_conversations",
+      "name": "LXMF HA Conversations",
+      "description": "Bridge Home Assistant Conversations with LXMF network",
+      "url": "https://github.com/metrafonic/lxmf-ha-conversations"
+    }
+  }
+}
