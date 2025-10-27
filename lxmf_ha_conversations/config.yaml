@@ -5,7 +5,7 @@ description: "Bridge Home Assistant Conversations with LXMF"
 arch:
   - amd64
   - armv7
-  - arm64
+  - aarch64
 url: "https://github.com/metrafonic/lxmf-ha-conversations"
 startup: services
 boot: auto
