@@ -8,7 +8,7 @@ Integrate the LXMF messaging network with your Home Assistant Conversation servi
 
 1. In Home Assistant:
    - Go to **Settings → Add-ons → Add-on Store → ⋮ → Repositories**.
-   - Add: `https://github.com/yourusername/lxmf-ha-repo`
+   - Add: `https://github.com/zalmyr/lxmf-ha-repo`
 
 2. Find **LXMF HA Conversations** in the list and install it.
 
